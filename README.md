@@ -29,7 +29,7 @@ It was implemented using **HTML**, **CSS/Tailwind**, and **Vanilla JavaScript** 
 
 ## Live Demo
 
-- **Live Site:** [Placeholder Link](#)
+- **Live Site:** [Placeholder Link](https://tipcalculator506.netlify.app/)
 - **Frontend Mentor Solution Page:** [Placeholder Link](#)
 
 ## Where and What JavaScript Was Used
