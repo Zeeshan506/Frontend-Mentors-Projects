@@ -30,7 +30,7 @@ It was implemented using **HTML**, **CSS/Tailwind**, and **Vanilla JavaScript** 
 ## Live Demo
 
 - **Live Site:** [Placeholder Link](https://tipcalculator506.netlify.app/)
-- **Frontend Mentor Solution Page:** [Placeholder Link](#)
+- **Frontend Mentor Solution Page:** [Placeholder Link](https://www.frontendmentor.io/solutions/tip-calculator-app-tailwind-PBB8vkXZhz)
 
 ## Where and What JavaScript Was Used
 
