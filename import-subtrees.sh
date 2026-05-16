@@ -12,17 +12,17 @@ DEST_ROOT=""
 KEEP_REMOTES=0
 
 REPO_URLS=(
-  "git@github.com:Zeeshan506/Interactive-rating-component.git",
-  "git@github.com:Zeeshan506/Tip-Calculator.git",
-  "git@github.com:Zeeshan506/Time-tracking-dashboard.git",
-  "git@github.com:Zeeshan506/Newsletter-sign-up-form.git",
-  "git@github.com:Zeeshan506/Article-preview-component.git",
-  "git@github.com:Zeeshan506/Testimonials-grid-section.git",
-  "git@github.com:Zeeshan506/Four-card-feature-section.git",
-  "git@github.com:Zeeshan506/Product-preview-card.git",
-  "git@github.com:Zeeshan506/Recipe-page.git",
-  "git@github.com:Zeeshan506/Social-links-profile.git",
-  "git@github.com:Zeeshan506/QR-code-component.git",
+  "git@github.com:Zeeshan506/Interactive-rating-component.git"
+  "git@github.com:Zeeshan506/Tip-Calculator.git"
+  "git@github.com:Zeeshan506/Time-tracking-dashboard.git"
+  "git@github.com:Zeeshan506/Newsletter-sign-up-form.git"
+  "git@github.com:Zeeshan506/Article-preview-component.git"
+  "git@github.com:Zeeshan506/Testimonials-grid-section.git"
+  "git@github.com:Zeeshan506/Four-card-feature-section.git"
+  "git@github.com:Zeeshan506/Product-preview-card.git"
+  "git@github.com:Zeeshan506/Recipe-page.git"
+  "git@github.com:Zeeshan506/Social-links-profile.git"
+  "git@github.com:Zeeshan506/QR-code-component.git"
 )
 
 DRY_RUN=0
