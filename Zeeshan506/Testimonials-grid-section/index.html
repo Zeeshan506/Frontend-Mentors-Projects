@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- add tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Testimonials Grid Section</title>
+  </head>
+  <body
+    style="font-family: 'Barlow Semi Condensed', sans-serif"
+    class="min-h-screen flex flex-col justify-center items-center bg-[#f5f5f5]"
+  >
+    <div
+      class="grid md:grid-cols-4 gap-4 md:gap-6 grid-cols-1 auto-rows-auto md:grid-rows-2 gap-4 mx-4 w-auto md:max-w-[1100px] my-15 md:my-0 h-fit"
+    >
+      <div
+        class="relative md:col-span-2 bg-[#733fc8] shadow-[10px_10px_10px_#cccdd2] w-full flex flex-col p-6 gap-3 rounded-lg"
+      >
+        <img
+          src="/images/bg-pattern-quotation.svg"
+          alt="bg-pattern-quotation"
+          class="absolute md:flex hidden mr-auto z-[1] right-10 top-0"
+        />
+        <div class="flex flex-row gap-4 z-100">
+          <img
+            src="/images/image-daniel.jpg"
+            alt="Daniel"
+            class="w-8 h-8 rounded-full border border-[#c4a2f6ff] border-2"
+          />
+          <div class="flex flex-col ml-2">
+            <p class="font-semibold text-white">Daniel Clifford</p>
+            <p class="text-sm text-white">Verified Graduate</p>
+          </div>
+        </div>
+        <div class="text-white text-lg font-medium z-100 text-left leading-6">
+          I received a job offer mid-course, and the subjects I learned were
+          current, if not more so, in the company I joined. I honestly feel I
+          got every penny’s worth.
+        </div>
+        <div class="text-xs text-white font-light">
+          “ I was an EMT for many years before I joined the bootcamp. I’ve been
+          looking to make a transition and have heard some people who had an
+          amazing experience here. I signed up for the free intro course and
+          found it incredibly fun! I enrolled shortly thereafter. The next 12
+          weeks was the best - and most grueling - time of my life. Since
+          completing the course, I’ve successfully switched careers, working as
+          a Software Engineer at a VR startup. ”
+        </div>
+      </div>
+      <div
+        class="bg-[#49556b] w-full flex flex-col p-6 gap-3 rounded-lg shadow-[10px_10px_10px_#cccdd2]"
+      >
+        <div class="flex flex-row gap-4 z-100">
+          <img
+            src="/images/image-jonathan.jpg"
+            alt="Jonathan"
+            class="w-8 h-8 rounded-full"
+          />
+          <div class="flex flex-col ml-2">
+            <p class="font-semibold text-white">Jonathan Walters</p>
+            <p class="text-sm text-white">Verified Graduate</p>
+          </div>
+        </div>
+        <div class="text-white text-lg font-medium z-100 text-left leading-6">
+          The team was very supportive and kept me motivated
+        </div>
+        <div class="text-xs text-white font-light">
+          “ I started as a total newbie with virtually no coding skills. I now
+          work as a mobile engineer for a big company. This was one of the best
+          investments I’ve made in myself. ”
+        </div>
+      </div>
+      <div
+        class="md:row-span-2 order-[2] md:order-0 bg-[#ffffff] shadow-[30px_45px_30px_#cccdd2] w-full flex flex-col p-6 gap-3 rounded-lg"
+      >
+        <div class="flex flex-row gap-4 z-100">
+          <img
+            src="/images/image-kira.jpg"
+            alt="Kira"
+            class="w-8 h-8 rounded-full"
+          />
+          <div class="flex flex-col ml-2">
+            <p class="font-semibold text-[#19212eff]">Kira Whittle</p>
+            <p class="text-sm text-[#19212eff]">Verified Graduate</p>
+          </div>
+        </div>
+        <div
+          class="text-[#19212eff] text-lg font-medium z-100 text-left leading-6"
+        >
+          Such a life-changing experience. Highly recommended!
+        </div>
+        <div class="text-xs text-[#19212eff] font-light">
+          “ Before joining the bootcamp, I’ve never written a line of code. I
+          needed some structure from professionals who can help me learn
+          programming step by step. I was encouraged to enroll by a former
+          student of theirs who can only say wonderful things about the program.
+          The entire curriculum and staff did not disappoint. They were very
+          hands-on and I never had to wait long for assistance. The agile team
+          project, in particular, was outstanding. It took my learning to the
+          next level in a way that no tutorial could ever have. In fact, I’ve
+          often referred to it during interviews as an example of my developent
+          experience. It certainly helped me land a job as a full-stack
+          developer after receiving multiple offers. 100% recommend! ”
+        </div>
+      </div>
+      <div
+        class="bg-[#ffffff] w-full flex flex-col p-6 gap-4 rounded-lg shadow-[30px_45px_30px_#cccdd2]"
+      >
+        <div class="flex flex-row gap-4 z-100">
+          <img
+            src="/images/image-jeanette.jpg"
+            alt="Jeanette"
+            class="w-8 h-8 rounded-full"
+          />
+          <div class="flex flex-col ml-2">
+            <p class="font-semibold text-[#19212eff]">Jeanette Harmon</p>
+            <p class="text-sm text-[#19212eff]">Verified Graduate</p>
+          </div>
+        </div>
+        <div
+          class="text-[#19212eff] text-lg font-medium z-100 text-left leading-6"
+        >
+          An overall wonderful and rewarding experience
+        </div>
+        <div class="text-xs text-[#19212eff] font-light">
+          “ Thank you for the wonderful experience! I now have a job I really
+          enjoy, and make a good living while doing something I love. ”
+        </div>
+      </div>
+      <div
+        class="md:col-span-2 bg-[#191f2d] w-full flex flex-col p-6 gap-3 rounded-lg shadow-[10px_45px_30px_#cccdd2]"
+      >
+        <div class="flex flex-row gap-4 z-100">
+          <img
+            src="/images/image-patrick.jpg"
+            alt="Patrick"
+            class="w-8 h-8 rounded-full border-2 border-[#c4a2f6ff]"
+          />
+          <div class="flex flex-col ml-2">
+            <p class="font-semibold text-white">Patrick Abrams</p>
+            <p class="text-sm text-white">Verified Graduate</p>
+          </div>
+        </div>
+        <div class="text-white text-lg font-medium z-100 text-left leading-6">
+          Awesome teaching support from TAs who did the bootcamp themselves.
+          Getting guidance from them and learning from their experiences was
+          easy.
+        </div>
+        <div class="text-xs text-white font-light">
+          “ The staff seem genuinely concerned about my progress which I find
+          really refreshing. The program gave me the confidence necessary to be
+          able to go out in the world and present myself as a capable junior
+          developer. The standard is above the rest. You will get the personal
+          attention you need from an incredible community of smart and amazing
+          people. ”
+        </div>
+      </div>
+    </div>
+    <!-- Daniel Clifford
+  Verified Graduate
+
+
+  
+
+  Jonathan Walters
+  Verified Graduate
+
+  The team was very supportive and kept me motivated
+
+
+
+  Jeanette Harmon
+  Verified Graduate
+
+
+
+  Patrick Abrams
+  Verified Graduate
+
+
+
+
+
+  Kira Whittle
+  Verified Graduate
+
+  
+
+  --></body>
+</html>
