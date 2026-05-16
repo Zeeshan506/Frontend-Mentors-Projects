@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        font-family: "Rubik", sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen flex flex-col justify-center items-center bg-[#0d1323]"
+  >
+    <div
+      class="lg:max-w-[70%] w-full grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-2 gap-6 lg:min-h-[500px]"
+    >
+      <div
+        class="grid lg:grid-rows-[65%_35%] grid-cols-1 text-white lg:row-span-2 bg-[#1d204b] rounded-2xl"
+      >
+        <div
+          class="flex lg:flex-col flex-row gap-8 bg-[#5746ea] px-8 py-8 w-full rounded-2xl"
+        >
+          <img
+            src="/images/image-jeremy.png"
+            alt=""
+            class="w-16 h-16 border-2 border-white rounded-full"
+          />
+
+          <div class="flex flex-col">
+            <p class="text-xs font-light text-[#a5a1ff]">Report For</p>
+            <h1 class="text-4xl font-light">Jeremy Robson</h1>
+          </div>
+        </div>
+        <div
+          class="flex lg:flex-col flex-row lg:justify-center justify-evenly items-start px-8 py-10 gap-3"
+        >
+          <button
+            class="text-white scale-115 hover:text-white cursor-pointer transition-all duration-500"
+            id="btns"
+            value="daily"
+          >
+            Daily
+          </button>
+          <button
+            id="btns"
+            value="weekly"
+            class="text-[#7b8e99] hover:text-white cursor-pointer transition-all duration-500"
+          >
+            Weekly
+          </button>
+          <button
+            id="btns"
+            value="monthly"
+            class="text-[#7b8e99] hover:text-white cursor-pointer transition-all duration-500"
+          >
+            Monthly
+          </button>
+        </div>
+      </div>
+      <div
+        class="relative flex flex-col justify-end text-white bg-[#ff8b64] rounded-lg overflow-hidden min-h-[200px]"
+      >
+        <img
+          src="/images/icon-work.svg"
+          alt="work"
+          class="absolute w-20 top-[-1rem] right-[10%]"
+        />
+        <div
+          class="h-[80%] z-10 flex flex-col justify-evenly gap-2 rounded-t-2xl bg-[#1d204b] hover:bg-[#34397b] cursor-pointer transition-all duration-500"
+          data-card="Work"
+        ></div>
+      </div>
+      <div
+        class="relative overflow-hidden flex flex-col justify-end text-white bg-[#56c2e6] rounded-lg min-h-[200px]"
+      >
+        <img
+          src="/images/icon-play.svg"
+          alt="Play"
+          class="absolute w-20 top-[-1rem] right-[10%]"
+        />
+        <div
+          class="h-[80%] z-10 flex flex-col justify-evenly gap-2 rounded-t-2xl bg-[#1d204b] hover:bg-[#34397b] cursor-pointer transition-all duration-500"
+          data-card="Play"
+        ></div>
+      </div>
+      <div
+        class="relative overflow-hidden flex flex-col justify-end text-white bg-[#ff5e7d] rounded-lg min-h-[200px]"
+      >
+        <img
+          src="/images/icon-study.svg"
+          alt="Study"
+          class="absolute w-20 top-[-1rem] right-[10%]"
+        />
+        <div
+          data-card="Study"
+          class="h-[80%] z-10 flex flex-col justify-evenly gap-2 rounded-t-2xl bg-[#1d204b] hover:bg-[#34397b] cursor-pointer transition-all duration-500"
+        ></div>
+      </div>
+      <div
+        class="relative overflow-hidden flex flex-col justify-end text-white bg-[#4bcf83] rounded-lg min-h-[200px]"
+      >
+        <img
+          src="/images/icon-exercise.svg"
+          alt="Exercise"
+          class="absolute w-20 top-0 right-[10%]"
+        />
+        <div
+          data-card="Exercise"
+          class="h-[80%] z-10 flex flex-col justify-evenly gap-2 rounded-t-2xl bg-[#1d204b] hover:bg-[#34397b] cursor-pointer transition-all duration-500"
+        ></div>
+      </div>
+      <div
+        class="relative overflow-hidden flex flex-col justify-end text-white bg-[#7235d1] rounded-lg min-h-[200px]"
+      >
+        <img
+          src="/images/icon-social.svg"
+          alt="Social"
+          class="absolute w-20 top-[-1rem] right-[10%]"
+        />
+        <div
+          data-card="Social"
+          class="h-[80%] z-10 flex flex-col justify-evenly gap-2 rounded-t-2xl bg-[#1d204b] hover:bg-[#34397b] cursor-pointer transition-all duration-500"
+        ></div>
+      </div>
+      <div
+        class="relative overflow-hidden flex flex-col justify-end text-white bg-[#f1c75b] rounded-lg min-h-[200px]"
+      >
+        <img
+          src="/images/icon-self-care.svg"
+          alt="SelfCare"
+          class="absolute w-20 top-[-1rem] right-[10%]"
+        />
+        <div
+          data-card="Self Care"
+          class="h-[80%] z-10 flex flex-col justify-evenly gap-2 rounded-t-2xl bg-[#1d204b] hover:bg-[#34397b] cursor-pointer transition-all duration-500"
+        ></div>
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
