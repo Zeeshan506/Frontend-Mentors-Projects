@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon-32x32.png"
+         />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet"
+         />
+      <title>Frontend Mentor | Four card feature section</title>
+   </head>
+   <body
+      style="font-family: 'Poppins', sans-serif"
+      ;
+      class="bg-[#fafafa] min-h-screen md:min-h-[700px] flex flex-col justify-center items-center"
+      >
+      <div
+         class="flex flex-col h-auto justify-center items-center mb-4 mt-10 md:mt-0"
+         >
+         <!-- 200, 400 , 600 weights. -->
+         <p class="font-light text-lg text-center md:text-4xl mb-2">
+            Reliable, efficient delivery
+         </p>
+         <p class="font-bold text-lg text-center md:text-4xl">
+            Powered by Technology
+         </p>
+         <p class="text-sm text-center p-6 w-auto md:w-[60%]">
+            Our Artificial Intelligence powered tools use millions of project data
+            points to ensure that your project is successful
+         </p>
+      </div>
+      <!-- for resposiveness -->
+      <div
+         class="flex flex-col h-auto justify-center items-center gap-8 md:flex-row"
+         >
+         <!-- Blue Card -->
+         <div
+            class="flex flex-col gap-2 bg-[#ffffff] shadow-[0px_2px_10px_#4c4e61] px-6 py-8 md:w-[350px] w-[85%] h-auto border-t-4 border-[#45d3d3]"
+            >
+            <p class="font-semibold text-xl">Supervisor</p>
+            <p class="text-sm text-[#4c4e61]">
+               Monitors activity to identify project roadblocks
+            </p>
+            <img src="/images/icon-supervisor.svg" class="ml-auto" alt="" />
+         </div>
+         <div class="flex flex-col justify-center items-center gap-8">
+            <div
+               class="flex flex-col gap-2 bg-[#ffffff] shadow-[0px_2px_10px_#4c4e61] px-6 py-8 md:w-[350px] w-[85%] h-auto border-t-4 border-[#ea5353]"
+               >
+               <p class="font-semibold text-xl">Team Builder</p>
+               <p class="text-sm text-[#4c4e61]">
+                  Scans our talent network to create the optimal team for your project
+               </p>
+               <img src="/images/icon-team-builder.svg" class="ml-auto" alt="" />
+            </div>
+            <div
+               class="flex flex-col gap-2 bg-[#ffffff] shadow-[0px_2px_10px_#4c4e61] px-6 py-8 md:w-[350px] w-[85%] h-auto border-t-4 border-[#fcaf4a]"
+               >
+               <p class="font-semibold text-xl">Karma</p>
+               <p class="text-sm text-[#4c4e61]">
+                  Regularly evaluates our talent to ensure quality
+               </p>
+               <img src="/images/icon-karma.svg" class="ml-auto" alt="" />
+            </div>
+         </div>
+         <div
+            class="flex flex-col gap-2 bg-[#ffffff] shadow-[0px_2px_10px_#4c4e61] px-6 py-8 md:w-[350px] w-[85%] h-auto border-t-4 border-[#549ef2]"
+            >
+            <p class="font-semibold text-xl">Calculator</p>
+            <p class="text-sm text-[#4c4e61]">
+               Uses data from past projects to provide better delivery estimates
+            </p>
+            <img src="/images/icon-calculator.svg" class="ml-auto" alt="" />
+         </div>
+      </div>
+   </body>
+</html>
